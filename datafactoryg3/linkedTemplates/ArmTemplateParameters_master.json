@@ -5,11 +5,23 @@
 		"factoryName": {
 			"value": "datafactoryg3"
 		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
 		"Entrada_Extraccion_connectionString": {
+			"value": ""
+		},
+		"Foreach_notebook_accessToken": {
 			"value": ""
 		},
 		"base_de_datos_Extraccion_connectionString": {
 			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://datalakeg3.dfs.core.windows.net/"
+		},
+		"Foreach_notebook_properties_typeProperties_existingClusterId": {
+			"value": "1102-035325-m88c8rs8"
 		},
 		"containerUri": {
 			"value": ""
