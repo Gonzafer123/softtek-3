@@ -1,0 +1,16 @@
+{
+	"name": "databricksdetest2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "AzureDatabricks",
+		"typeProperties": {
+			"domain": "http://adb-4562067386215845.azuredatabricks.net",
+			"authentication": "MSI",
+			"workspaceResourceId": "/subscriptions/5b3af01b-6743-49a6-8e13-b4ad5760cdcb/resourceGroups/databricks-rg-databricksg3152395739-p6a0jkgz9fbs1",
+			"newClusterVersion": "10.4.x-scala2.12",
+			"newClusterNumOfWorker": "1",
+			"newClusterNodeType": "Standard_DS3_v2"
+		},
+		"annotations": []
+	}
+}
